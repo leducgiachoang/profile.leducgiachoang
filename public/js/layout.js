@@ -1,0 +1,15 @@
+$(document).ready(function(){
+    $('.icon_categoyExit').hide();
+    $(".icon_categoy").click(function(){
+        $('.categorymenu').show(1000);
+        $('.iconContact').show(1000);
+        $('.icon_categoy').hide(1000);
+        $('.icon_categoyExit').show(1000);
+    })
+    $(".icon_categoyExit").click(function(){
+        $('.categorymenu').hide(1000);
+        $('.icon_categoy').show(1000);
+        $('.iconContact').hide(1000);
+        $('.icon_categoyExit').hide(1000);
+    })
+})

@@ -1,0 +1,128 @@
+.hr1{
+    height: 4px;
+    border: none;
+    background: black;
+    border-radius: 62px;
+}
+
+.homeHeader h5{
+    margin: -17px auto;
+    text-align: right;
+}
+.textarticle1{
+    margin: 40px 0px auto;
+    
+    text-align: justify;
+    padding: 20px;
+    background: -webkit-gradient(linear, 70% 28%, 10% 21%, from(#0072ffcf), to(#0d28e9));
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+}
+.textarticle2{
+    margin: 20px 0px auto;
+    
+    text-align: justify;
+    padding: 13px;
+    background: -webkit-gradient(linear, 70% 28%, 10% 21%, from(#0072ffeb), to(#0d28e9));
+    border-radius: 20px;
+    color: white;
+    font-size: 18px; 
+}
+.textarticle2 a{
+    color: white;
+}
+
+.textarticle2 a:hover{
+    color: white;
+    text-shadow: 0px 0px 3px white;
+    text-decoration: none;
+}
+.article img{
+    width: 100%;
+}
+
+.form-contact{
+    width: 100%;
+    margin-top: 60px;
+}
+.inpt{
+    width: 100%;
+    float: left;
+}
+.mix1{
+float: left;
+width: 90%;
+}
+.mix1 input{
+    font-size: 20px;
+    height: 45px;
+    border-radius: 7px;
+    border: 0.1px solid #868585;
+    padding: 0px 13px;
+}
+
+.mix2 button{
+    font-size: 20px;
+    height: 45px;
+    border-radius: 7px;
+    border: 0.1px solid #868585;
+    padding: 0px 13px;
+    margin: 0px -15px;
+    font-weight: 700;
+    background: -webkit-gradient(linear, 70% 28%, 10% 21%, from(#0072ffeb), to(#253bdf));
+    color: white;
+}
+
+.mix2 button:hover{
+    background: -webkit-gradient(linear, 70% 28%, 10% 21%, from(#ff005eeb), to(#8f0404));
+    color: white;
+    transition: 0.6s;
+}
+
+.mix1 input:focus{
+    height: 45px;
+    border-radius: 7px;
+    border: 0.1px solid #868585;
+    
+
+}
+
+.mix2{
+    float: left;
+    width: 1%;
+}
+
+@media only screen and (max-width: 576px) {
+    
+    .textarticle1{
+        margin: 40px 0px auto;
+        
+        text-align: justify;
+        padding: 20px;
+        background: -webkit-gradient(linear, 70% 28%, 10% 21%, from(#0072ffcf), to(#0d28e9));
+        border-radius: 20px;
+        color: white;
+        font-size: 15px;
+    }
+    .textarticle2{
+        margin: 20px 0px auto;
+        
+        text-align: justify;
+        padding: 13px;
+        background: -webkit-gradient(linear, 70% 28%, 10% 21%, from(#0072ffeb), to(#0d28e9));
+        border-radius: 20px;
+        color: white;
+        font-size: 15px; 
+    }
+    
+    
+    .textarticle2 a:hover{
+        color: white;
+        text-shadow: 0px 0px 3px white;
+        text-decoration: none;
+    }
+    .article img{
+        width: 50%;
+    }
+}
