@@ -51,8 +51,17 @@ Route::group(['prefix' => 'admin', 'namespace'=>"BackEnd"], function () {
         
         Route::group(['prefix' => 'song'], function () {
             Route::get('new', 'MusicController@create')->name('get.music.new');
+            Route::post('new', 'MusicController@store')->name('post.music.new');
+            Route::get('update/{id}', 'MusicController@edit')->name('get.music.update');
+            Route::post('update', 'MusicController@update')->name('post.music.update');
+            Route::get('delete/{id}', 'MusicController@destroy')->name('get.music.delete');
         });
         
     });
     
+});
+
+Route::group(['prefix' => 'music', 'namespace'=>'Frontend'], function () {
+    Route::get('song', 'songController@index')->name('get.fr.song.index');
+    Route::get('song/{id}/{name}','songController@show')->name('get.fr.song.show');
 });

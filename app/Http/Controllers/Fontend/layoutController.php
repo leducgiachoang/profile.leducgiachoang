@@ -14,7 +14,7 @@ class layoutController extends Controller
      */
     public function index()
     {
-        return view('Fontend.home');
+        return view('Frontend.home');
     }
 
     /**

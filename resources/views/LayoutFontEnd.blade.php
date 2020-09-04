@@ -46,7 +46,7 @@
               <ul class="categorymenu">
                   
                   <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-
+                  <li><a href="{{ route('get.fr.song.index') }}"><i class="fas fa-play-circle"></i> My Music</a></li>
                 <!-- Phần menu giao diện người dùng chưa đăng nhập -->
                   @if (!(Auth::check()))
                 
